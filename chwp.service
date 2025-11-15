@@ -1,0 +1,6 @@
+[Unit]
+Description=Change Wallpaper
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/chwp.sh
