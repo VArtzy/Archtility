@@ -1,0 +1,6 @@
+[Unit]
+Description=Battery Low Warning
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/bat.sh
